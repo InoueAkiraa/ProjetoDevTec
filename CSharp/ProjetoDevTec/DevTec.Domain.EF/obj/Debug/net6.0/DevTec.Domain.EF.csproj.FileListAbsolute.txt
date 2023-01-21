@@ -1,0 +1,14 @@
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\bin\Debug\net6.0\DevTec.Domain.EF.deps.json
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\bin\Debug\net6.0\DevTec.Domain.EF.runtimeconfig.json
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\bin\Debug\net6.0\DevTec.Domain.EF.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\bin\Debug\net6.0\DevTec.Domain.EF.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\obj\Debug\net6.0\DevTec.Domain.EF.csproj.AssemblyReference.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\obj\Debug\net6.0\DevTec.Domain.EF.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\obj\Debug\net6.0\DevTec.Domain.EF.AssemblyInfoInputs.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\obj\Debug\net6.0\DevTec.Domain.EF.AssemblyInfo.cs
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\obj\Debug\net6.0\DevTec.Domain.EF.csproj.CoreCompileInputs.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\obj\Debug\net6.0\DevTec.Domain.EF.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\obj\Debug\net6.0\refint\DevTec.Domain.EF.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\obj\Debug\net6.0\DevTec.Domain.EF.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\obj\Debug\net6.0\DevTec.Domain.EF.genruntimeconfig.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Domain.EF\obj\Debug\net6.0\ref\DevTec.Domain.EF.dll

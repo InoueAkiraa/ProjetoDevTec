@@ -1,0 +1,12 @@
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\bin\Debug\net6.0\DevTec.Poco.deps.json
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\bin\Debug\net6.0\DevTec.Poco.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\bin\Debug\net6.0\DevTec.Poco.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\obj\Debug\net6.0\DevTec.Poco.csproj.AssemblyReference.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\obj\Debug\net6.0\DevTec.Poco.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\obj\Debug\net6.0\DevTec.Poco.AssemblyInfoInputs.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\obj\Debug\net6.0\DevTec.Poco.AssemblyInfo.cs
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\obj\Debug\net6.0\DevTec.Poco.csproj.CoreCompileInputs.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\obj\Debug\net6.0\DevTec.Poco.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\obj\Debug\net6.0\refint\DevTec.Poco.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\obj\Debug\net6.0\DevTec.Poco.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Poco\obj\Debug\net6.0\ref\DevTec.Poco.dll

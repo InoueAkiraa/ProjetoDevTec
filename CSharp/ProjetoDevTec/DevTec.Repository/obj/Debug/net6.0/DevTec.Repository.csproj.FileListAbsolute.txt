@@ -1,0 +1,15 @@
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\bin\Debug\net6.0\DevTec.Repository.deps.json
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\bin\Debug\net6.0\DevTec.Repository.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\bin\Debug\net6.0\DevTec.Repository.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\bin\Debug\net6.0\DevTec.Domain.EF.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\bin\Debug\net6.0\DevTec.Domain.EF.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\obj\Debug\net6.0\DevTec.Repository.csproj.AssemblyReference.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\obj\Debug\net6.0\DevTec.Repository.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\obj\Debug\net6.0\DevTec.Repository.AssemblyInfoInputs.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\obj\Debug\net6.0\DevTec.Repository.AssemblyInfo.cs
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\obj\Debug\net6.0\DevTec.Repository.csproj.CoreCompileInputs.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\obj\Debug\net6.0\DevTec.Repository.csproj.CopyComplete
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\obj\Debug\net6.0\DevTec.Repository.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\obj\Debug\net6.0\refint\DevTec.Repository.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\obj\Debug\net6.0\DevTec.Repository.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Repository\obj\Debug\net6.0\ref\DevTec.Repository.dll

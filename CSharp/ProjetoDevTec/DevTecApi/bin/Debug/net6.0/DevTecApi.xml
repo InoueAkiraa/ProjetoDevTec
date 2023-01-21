@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevTecApi</name>
+    </assembly>
+    <members>
+        <member name="T:DevTecApi.Controllers.CidadeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DevTecApi.Controllers.CidadeController.servico">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.CidadeController.#ctor(DevTec.Domain.EF.DevTecContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:DevTecApi.Controllers.CidadeController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros de Cidade por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.CidadeController.GetByEstado(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Cidade por código Estado.
+            </summary>
+            <param name="estcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.CidadeController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Cidade.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.CidadeController.Post(DevTec.Poco.CidadePoco)">
+            <summary>
+            Inclui um novo dado em Cidade.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.CidadeController.Put(DevTec.Poco.CidadePoco)">
+            <summary>
+            Altera um dado existente em Cidade.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.CidadeController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente em Cidade, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:DevTecApi.Controllers.EmpresaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.EmpresaController.#ctor(DevTec.Domain.EF.DevTecContext)">
+            <summary>
+            
+            </summary>
+            <param name="contexto"></param>
+        </member>
+        <member name="M:DevTecApi.Controllers.EmpresaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros da tabela Empresa, respeitando parâmetros Take e Skip
+            </summary>
+            <param name="take"></param>
+            <param name="skip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EmpresaController.GetById(System.Int32)">
+            <summary>
+            Retorna o registro de acordo com o código da chave primária informada.
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EmpresaController.Post(DevTec.Poco.EmpresaPoco)">
+            <summary>
+            Realiza a criação de um novo registro
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EmpresaController.Put(DevTec.Poco.EmpresaPoco)">
+            <summary>
+            Realiza a alteração de um registro existente.
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EmpresaController.Delete(System.Int32)">
+            <summary>
+            Realiza a exclusao de um registro existente de acordo com a chave primária informada.
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DevTecApi.Controllers.EnderecoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DevTecApi.Controllers.EnderecoController.servico">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoController.#ctor(DevTec.Domain.EF.DevTecContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros de Endereço por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoController.GetByCidade(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Endereço por código Cidade.
+            </summary>
+            <param name="cidadecod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Edereco.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoController.Post(DevTec.Poco.EnderecoPoco)">
+            <summary>
+            Inclui um novo dado em Endereco.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoController.Put(DevTec.Poco.EnderecoPoco)">
+            <summary>
+            Altera um dado existente em Endereco.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente em Endereco, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:DevTecApi.Controllers.EnderecoPessoaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoPessoaController.#ctor(DevTec.Domain.EF.DevTecContext)">
+            <summary>
+            
+            </summary>
+            <param name="contexto"></param>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoPessoaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros da tabela EnderecoPessoa
+            </summary>
+            <param name="take"></param>
+            <param name="skip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoPessoaController.GetByEndereco(System.Int32)">
+            <summary>
+            Retorna todos os registros da tabela EnderecoPessoa buscando por Endereco
+            </summary>
+            <param name="endid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoPessoaController.GetByPessoa(System.Int32)">
+            <summary>
+            Retorna todos os registros da tabela EnderecoPessoa buscando por Pessoa
+            </summary>
+            <param name="pesid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoPessoaController.GetById(System.Int32)">
+            <summary>
+            Retorna o registro de acordo com a chave primária informada
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoPessoaController.Post(DevTec.Poco.EnderecoPessoaPoco)">
+            <summary>
+            Realiza a criação de um novo registro
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoPessoaController.Put(DevTec.Poco.EnderecoPessoaPoco)">
+            <summary>
+            Realiza a alteração de um registro
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EnderecoPessoaController.Delete(System.Int32)">
+            <summary>
+            Realiza a exclusão do registro de acordo com o ID.
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DevTecApi.Controllers.EstadoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DevTecApi.Controllers.EstadoController.servico">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.EstadoController.#ctor(DevTec.Domain.EF.DevTecContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:DevTecApi.Controllers.EstadoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros de Estado por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EstadoController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Estado.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EstadoController.Post(DevTec.Poco.EstadoPoco)">
+            <summary>
+            Inclui um novo dado em Estado.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EstadoController.Put(DevTec.Poco.EstadoPoco)">
+            <summary>
+            Altera um dado existente em Estado.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.EstadoController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente em Estado, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:DevTecApi.Controllers.PessoaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaController.#ctor(DevTec.Domain.EF.DevTecContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros de Pessoa por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaController.GetByCount(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="porSigla"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaController.GetByTipoPessoa(System.Int32)">
+            <summary>
+            Lista os registro de Pessoa usando a chave de TipoPessoa.
+            </summary>
+            <param name="tipid">Chave de pesquisa.</param>
+            <returns>Registro localizado.</returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaController.GetBySigla(System.String)">
+            <summary>
+            Lista os registro de Pessoa por Sigla Pessoa.
+            </summary>
+            /// <param name="porSigla">Chave de pesquisa.</param>
+            <returns>Registro localizado.</returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaController.GetBySiglaTakeSkip(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna os tipos de usuarios com paginação
+            </summary>
+            <param name="porSigla"></param>
+            <param name="take"></param>
+            <param name="skip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Pessoa.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaController.Post(DevTec.Poco.PessoaPoco)">
+            <summary>
+            Inclui um novo dado na tabela Pessoa.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaController.Put(DevTec.Poco.PessoaPoco)">
+            <summary>
+            Altera um dado existente na tabela Pessoa.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente em Pessoa, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:DevTecApi.Controllers.PessoaProjetoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaProjetoController.#ctor(DevTec.Domain.EF.DevTecContext)">
+            <summary>
+            
+            </summary>
+            <param name="contexto"></param>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaProjetoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros da tabela PessoaProjeto
+            </summary>
+            <param name="take"></param>
+            <param name="skip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaProjetoController.GetByPessoa(System.Int32)">
+            <summary>
+            Retorna todos os registros da tabela PessoaProjeto buscando por Pessoa
+            </summary>
+            <param name="pesid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaProjetoController.GetByAtendente(System.Int32)">
+            <summary>
+            Retorna todos os registros da tabela PessoaProjeto buscando por Projeto
+            </summary>
+            <param name="proid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaProjetoController.GetById(System.Int32)">
+            <summary>
+            Retorna o registro de acordo com a chave primária informada
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaProjetoController.Post(DevTec.Poco.PessoaProjetoPoco)">
+            <summary>
+            Realiza a criação de um novo registro
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaProjetoController.Put(DevTec.Poco.PessoaProjetoPoco)">
+            <summary>
+            Realiza a alteração de um registro
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.PessoaProjetoController.Delete(System.Int32)">
+            <summary>
+            Realiza a exclusão do registro de acordo com o ID.
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DevTecApi.Controllers.ProjetoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.ProjetoController.#ctor(DevTec.Domain.EF.DevTecContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:DevTecApi.Controllers.ProjetoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Listar todos os registros da tabela.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.ProjetoController.GetByEmpresaId(System.Int32)">
+            <summary>
+            Traz todos os registros de acordo com o código de empresa.
+            </summary>
+            <param name="procod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.ProjetoController.GetByTipoProjetoId(System.Int32)">
+            <summary>
+            Traz todos os registros de acordo com o código de TipoProjeto.
+            </summary>
+            <param name="tipcod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.ProjetoController.GetByStatusProjetoId(System.Int32)">
+            <summary>
+            Traz todos os registros de acordo com o código de StatusProjeto.
+            </summary>
+            <param name="stacod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.ProjetoController.GetById(System.Int32)">
+            <summary>
+            Lista o projeto de acordo com o código informado
+            </summary>
+            <param name="codigo"> Informe um Código </param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.ProjetoController.Post(DevTec.Poco.ProjetoPoco)">
+            <summary>
+            Cria um novo registro na tabela
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.ProjetoController.Put(DevTec.Poco.ProjetoPoco)">
+            <summary>
+            Atualiza os dados da tabela 
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.ProjetoController.DeleteById(System.Int32)">
+            <summary>
+            Apaga um registro por codigo informado
+            </summary>
+            <param name="codigo"> Informe um código que deseja apagar </param>
+            <returns></returns>
+        </member>
+        <member name="T:DevTecApi.Controllers.StatusProjetoController">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.StatusProjetoController.#ctor(DevTec.Domain.EF.DevTecContext)">
+             <summary>
+            
+             </summary>
+             <param name="contexto"></param>
+        </member>
+        <member name="M:DevTecApi.Controllers.StatusProjetoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros da tabela StatusProjeto, respeitando parâmetros Take e Skip
+            </summary>
+            <param name="take"></param>
+            <param name="skip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.StatusProjetoController.GetById(System.Int32)">
+            <summary>
+            Retorna o registro de acordo com o código da chave primária informada.
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.StatusProjetoController.Post(DevTec.Poco.StatusProjetoPoco)">
+            <summary>
+            Realiza a criação de um novo registro
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.StatusProjetoController.Put(DevTec.Poco.StatusProjetoPoco)">
+            <summary>
+            Realiza a alteração de um registro existente.
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.StatusProjetoController.Delete(System.Int32)">
+            <summary>
+            Realiza a exclusao de um registro existente de acordo com a chave primária informada.
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DevTecApi.Controllers.TipoPessoaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoPessoaController.#ctor(DevTec.Domain.EF.DevTecContext)">
+            <summary>
+            
+            </summary>
+            <param name="contexto"></param>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoPessoaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros da tabela TipoPessoa, respeitando parâmetros Take e Skip
+            </summary>
+            <param name="take"></param>
+            <param name="skip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoPessoaController.GetById(System.Int32)">
+            <summary>
+            Retorna o registro de acordo com o código da chave primária informada.
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoPessoaController.Post(DevTec.Poco.TipoPessoaPoco)">
+            <summary>
+            Realiza a criação de um novo registro
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoPessoaController.Put(DevTec.Poco.TipoPessoaPoco)">
+            <summary>
+            Realiza a alteração de um registro existente.
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoPessoaController.Delete(System.Int32)">
+            <summary>
+            Realiza a exclusao de um registro existente de acordo com a chave primária informada.
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DevTecApi.Controllers.TipoProjetoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoProjetoController.#ctor(DevTec.Domain.EF.DevTecContext)">
+            <summary>
+            
+            </summary>
+            <param name="contexto"></param>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoProjetoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros da tabela TipoProjeto, respeitando parâmetros Take e Skip
+            </summary>
+            <param name="take"></param>
+            <param name="skip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoProjetoController.GetById(System.Int32)">
+            <summary>
+            Retorna o registro de acordo com o código da chave primária informada.
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoProjetoController.Post(DevTec.Poco.TipoProjetoPoco)">
+            <summary>
+            Realiza a criação de um novo registro
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoProjetoController.Put(DevTec.Poco.TipoProjetoPoco)">
+            <summary>
+            Realiza a alteração de um registro existente.
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DevTecApi.Controllers.TipoProjetoController.Delete(System.Int32)">
+            <summary>
+            Realiza a exclusao de um registro existente de acordo com a chave primária informada.
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

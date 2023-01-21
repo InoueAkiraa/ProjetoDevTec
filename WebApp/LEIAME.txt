@@ -1,0 +1,20 @@
+var caminho = "https://localhost:7122/api/desenvolvimento";
+var api = "/pessoa";
+var parametro = caminho + api;
+
+function paginacao(parametro, count, limite){
+    var url = [];
+    var calculo = (count % limite);
+    var nPagina = (count / limite);
+    if (calculo != 0){
+        nPagina += 1;
+    }
+    var urltakeskip;
+    for (let index = 0; index < nPagina; index++) {
+        var limiteskip = index * limite;
+        urltakeskip = parametro + "?take=" + limite + "&skip=" + limiteskip;
+        url[index] = urltakeskip;
+    }
+    return url;
+    console.log(url);
+}

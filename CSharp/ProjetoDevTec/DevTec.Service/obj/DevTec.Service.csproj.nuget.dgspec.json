@@ -1,0 +1,355 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Service\\DevTec.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Domain.EF\\DevTec.Domain.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Domain.EF\\DevTec.Domain.EF.csproj",
+        "projectName": "DevTec.Domain.EF",
+        "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Domain.EF\\DevTec.Domain.EF.csproj",
+        "packagesPath": "C:\\Users\\akira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Domain.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Mapping\\DevTec.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Mapping\\DevTec.Mapping.csproj",
+        "projectName": "DevTec.Mapping",
+        "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Mapping\\DevTec.Mapping.csproj",
+        "packagesPath": "C:\\Users\\akira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Domain.EF\\DevTec.Domain.EF.csproj": {
+                "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Domain.EF\\DevTec.Domain.EF.csproj"
+              },
+              "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Poco\\DevTec.Poco.csproj": {
+                "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Poco\\DevTec.Poco.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "automapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Poco\\DevTec.Poco.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Poco\\DevTec.Poco.csproj",
+        "projectName": "DevTec.Poco",
+        "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Poco\\DevTec.Poco.csproj",
+        "packagesPath": "C:\\Users\\akira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Poco\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Repository\\DevTec.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Repository\\DevTec.Repository.csproj",
+        "projectName": "DevTec.Repository",
+        "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Repository\\DevTec.Repository.csproj",
+        "packagesPath": "C:\\Users\\akira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Domain.EF\\DevTec.Domain.EF.csproj": {
+                "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Domain.EF\\DevTec.Domain.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Service\\DevTec.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Service\\DevTec.Service.csproj",
+        "projectName": "DevTec.Service",
+        "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Service\\DevTec.Service.csproj",
+        "packagesPath": "C:\\Users\\akira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Domain.EF\\DevTec.Domain.EF.csproj": {
+                "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Domain.EF\\DevTec.Domain.EF.csproj"
+              },
+              "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Mapping\\DevTec.Mapping.csproj": {
+                "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Mapping\\DevTec.Mapping.csproj"
+              },
+              "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Poco\\DevTec.Poco.csproj": {
+                "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Poco\\DevTec.Poco.csproj"
+              },
+              "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Repository\\DevTec.Repository.csproj": {
+                "projectPath": "C:\\Users\\akira\\Documents\\GitHub\\AzureDevOps - PSG_CAP_202209\\CAP_PSG_202209\\CSharp\\ProjetoDevTec\\DevTec.Repository\\DevTec.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+INSERT INTO DevTecDB.DBO.Projeto(Nome,CodigoEmpresa,CodigoTipoProjeto,Descricao,PrecoListado,CodigoStatusProjeto,SiglaStatusProjeto,DataInicio,DataEntregaPrevista)
+SELECT  [column1]
+      ,[column2]
+      ,[column3]
+      ,[column4]
+      ,[column5]
+      ,[column6]
+      ,[column7]
+      ,[column8]
+      ,[column9]
+  FROM [DevTecDB].[dbo].[RAW_Insert_Projeto]

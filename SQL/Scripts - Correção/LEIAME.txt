@@ -1,0 +1,1 @@
+Realizado a correção do banco, onde cada colaborador irá informar os scripts formulados e qual a necessidade de tal mudança.

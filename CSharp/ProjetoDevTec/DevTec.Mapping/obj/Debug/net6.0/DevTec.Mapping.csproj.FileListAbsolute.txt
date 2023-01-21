@@ -1,0 +1,17 @@
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\bin\Debug\net6.0\DevTec.Mapping.deps.json
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\bin\Debug\net6.0\DevTec.Mapping.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\bin\Debug\net6.0\DevTec.Mapping.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\bin\Debug\net6.0\DevTec.Domain.EF.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\bin\Debug\net6.0\DevTec.Poco.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\bin\Debug\net6.0\DevTec.Domain.EF.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\bin\Debug\net6.0\DevTec.Poco.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\obj\Debug\net6.0\DevTec.Mapping.csproj.AssemblyReference.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\obj\Debug\net6.0\DevTec.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\obj\Debug\net6.0\DevTec.Mapping.AssemblyInfoInputs.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\obj\Debug\net6.0\DevTec.Mapping.AssemblyInfo.cs
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\obj\Debug\net6.0\DevTec.Mapping.csproj.CoreCompileInputs.cache
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\obj\Debug\net6.0\DevTec.Mapping.csproj.CopyComplete
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\obj\Debug\net6.0\DevTec.Mapping.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\obj\Debug\net6.0\refint\DevTec.Mapping.dll
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\obj\Debug\net6.0\DevTec.Mapping.pdb
+c:\Users\akira\Documents\GitHub\AzureDevOps - PSG_CAP_202209\CAP_PSG_202209\CSharp\ProjetoDevTec\DevTec.Mapping\obj\Debug\net6.0\ref\DevTec.Mapping.dll

@@ -1,0 +1,5 @@
+INSERT INTO	[dbo].[StatusProjeto] ([Descricao], [SiglaStatusProjeto]) VALUES 
+
+('NAO INICIADO','NI'),
+('EM ANDAMENTO','EA'),
+('FINALIZADO','FI')

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTec App - Cadastro - Projeto - Detalhes</title>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="../../../js/config.js"></script>
+    <script src="../../../js/cadastro/cadastro.js"></script>
+    <script src="../../../js/cadastro/projeto/config.js"></script>
+    <script src="../../../js/cadastro/projeto/detail.js"></script> 
+    <script src="../../../js/cadastro/projeto/create.js"></script>
+    <script src="../../../js/cadastro/projeto/update.js"></script>
+    <script src="../../../js/cadastro/projeto/delete.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-secondary">
+    <div class="container pt-4 my-5 card text-black ">
+        <div class="container card text-black ">
+            <h3 class="mb-4 text-center my-4 bordered">Detalhes do registro escolhido</h3>
+        </div>
+                
+        <form>
+
+            <div class="form-row mt-4">
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtCodigoProjeto">CodigoProjeto</label>
+                    <input class="form-control" type="text" id="txtCodigoProjeto" name="txtCodigoProjeto"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtNome">Nome</label>
+                    <input class="form-control" type="text" id="txtNome" name="txtNome"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtCodigoEmpresa">CodigoEmpresa</label>
+                    <input class="form-control" type="text" id="txtCodigoEmpresa" name="txtCodigoEmpresa"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtCodigoTipoProjeto">CodigoTipoProjeto</label>
+                    <input class="form-control" type="text" id="txtCodigoTipoProjeto" name="txtCodigoTipoProjeto"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtDescricao">Descricao</label>
+                    <input class="form-control" type="text" id="txtDescricao" name="txtDescricao"/>
+                </div>
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtPrecoListado">PrecoListado</label>
+                    <input class="form-control" type="text" id="txtPrecoListado" name="txtPrecoListado"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                 <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtCodigoStatusProjeto">CodigoStatusProjeto</label>
+                    <input class="form-control" type="text" id="txtCodigoStatusProjeto" name="txtCodigoStatusProjeto"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtSiglaStatusProjeto">SiglaStatusProjeto</label>
+                    <input class="form-control" type="text" id="txtSiglaStatusProjeto" name="txtSiglaStatusProjeto"/>
+                </div>                                 
+            </div>
+
+            <div class="form-row" id="divAtivoInclusao">
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtAtivo">Ativo</label>
+                    <input class="form-control" type="text" id="txtAtivo" name="txtAtivo"/>
+                </div>                
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtDataInclusao" id="lblTextoDataInclusao">DataInclusao</label>
+                    <input class="form-control" type="text" id="txtDataInclusao" name="txtDataInclusao"/>
+                </div>
+            </div>
+
+            <div class="form-row" id="divTexto">
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtDataInicio" id="lblTextoDataInicio">DataInicio</label>
+                    <input class="form-control" type="text" id="txtDataInicio" name="txtDataInicio"/>
+                </div> 
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtDataEntregaPrevista" id="lblTextoDataEntregaPrevista">DataEntregaPrevista</label>
+                    <input class="form-control" type="text" id="txtDataEntregaPrevista" name="txtDataEntregaPrevista"/>
+                </div>           
+            </div>
+
+            <div class="form-row" id="divData">
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="datDataInicio" id="lblDataInicio">DataInicio</label>
+                    <input class="form-control" type="date" id="datDataInicio" name="datDataInicio"/>
+                </div> 
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="datDataEntregaPrevista" id="lblDataEntregaPrevista">DataEntregaPrevista</label>
+                    <input class="form-control" type="date" id="datDataEntregaPrevista" name="datDataEntregaPrevista"/>
+                </div>           
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <div class="container card text-black">  
+                        <div class="custom-control custom-checkbox" id="divCheckBox">  
+                            <input type="checkbox" id="chbAtivo" name="chbAtivo" class="custom-control-input">  
+                            <h4> Ativo </h4>  
+                            <label class="custom-control-label" for="chbAtivo"> True </label>  
+                        </div>  
+                    </div>  
+                </div>
+            </div>
+
+
+
+
+            <div class="form-row justify-content-center align-items-center">
+                <div>                
+                    <button type="button" class="btn btn-primary my-4 ml-1 mr-4"  id="btnVoltar" name="btnVoltar" onclick="document.location='list.html'" >Voltar</button>
+                    <button type="button" class="btn btn-success my-4 ml-4 mr-4"  id="btnNovo" name="btnNovo" onclick="cadastrar();">Novo</button>
+                    <button type="button" class="btn btn-warning my-4 ml-4 mr-4"  id="btnAlterar" name="btnAlterar" onclick="alterar();">Alterar</button>
+                    <button type="button" class="btn btn-danger my-4 ml-4 mr-4"   id="btnExcluir" name="btnExcluir" onclick="excluir();">Excluir</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
